@@ -1,0 +1,482 @@
+.notch-icon1 {
+  width: 219px;
+  height: 30px;
+  position: relative;
+  object-fit: cover;
+  display: none;
+  z-index: 0;
+}
+.recording-indicator-icon1 {
+  width: 6px;
+  height: 6px;
+  position: relative;
+  display: none;
+  z-index: 1;
+}
+.i-phone-pro-max {
+  width: 100%;
+  height: 148px;
+  position: absolute;
+  margin: 0 !important;
+  top: 144px;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.left-side-icon1 {
+  height: 21px;
+  width: 54px;
+  position: relative;
+}
+.mobile-signal-icon1,
+.wifi-icon1 {
+  height: 10.7px;
+  width: 17px;
+  position: relative;
+}
+.wifi-icon1 {
+  height: 11px;
+  width: 15.3px;
+}
+.battery-icon1 {
+  align-self: stretch;
+  width: 24.3px;
+  position: relative;
+  max-height: 100%;
+  min-height: 11px;
+}
+.mobile-signal-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.frame-container {
+  width: 66.6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-8xs-4);
+  box-sizing: border-box;
+}
+.frame-wrapper,
+.left-side-parent {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.left-side-parent {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-wrapper {
+  width: 419px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-21xl);
+  box-sizing: border-box;
+}
+.hamburger-menu-printable-ico1 {
+  height: 82px;
+  width: 85px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -20px;
+  left: -7px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frame-child {
+  height: 69px;
+  width: 430px;
+  position: relative;
+  background-color: var(--color-rosybrown-400);
+  display: none;
+  max-width: 100%;
+}
+.wagz1 {
+  text-decoration: none;
+  width: 160px;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  white-space: nowrap;
+  z-index: 1;
+}
+.hamburger-menu-printable-ico-parent,
+.rectangle-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.rectangle-parent {
+  flex: 1;
+  background-color: var(--color-rosybrown-400);
+  justify-content: center;
+  padding: var(--padding-smi) var(--padding-xl) var(--padding-6xs)
+    var(--padding-21xl);
+  box-sizing: border-box;
+}
+.hamburger-menu-printable-ico-parent {
+  align-self: stretch;
+  justify-content: flex-start;
+  position: relative;
+}
+.frame-group,
+.frame-item {
+  align-self: stretch;
+  max-width: 100%;
+}
+.frame-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.frame-item {
+  height: 4px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  z-index: 2;
+}
+.frame-inner {
+  height: 148px;
+  width: 426px;
+  position: absolute;
+  margin: 0 !important;
+  top: -24px;
+  right: -41px;
+  object-fit: contain;
+  z-index: 1;
+}
+.create-an-account {
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+}
+.enter-your-email {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 150%;
+}
+.copy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  gap: var(--gap-11xs);
+}
+.label {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-sm);
+  background-color: transparent;
+  height: 20px;
+  flex: 1;
+  position: relative;
+  line-height: 140%;
+  color: var(--color-gray-100);
+  text-align: left;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 177px;
+  padding: 0;
+}
+.field {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  border: 1px solid #e0e0e0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-mini);
+}
+.primary {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 122px;
+}
+.button,
+.input-and-button {
+  align-self: stretch;
+  display: flex;
+  cursor: pointer;
+}
+.button {
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-xl);
+  background-color: var(--color-black);
+  border-radius: var(--br-5xs);
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.button:hover {
+  background-color: #333;
+}
+.input-and-button {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.privacy-policy,
+.terms-of-service {
+  color: var(--color-black);
+}
+.by-clicking-continue-container {
+  width: 311px;
+  position: relative;
+  font-size: 12px;
+  line-height: 150%;
+  display: inline-block;
+  color: var(--color-gray-100);
+}
+.signup-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base) 246px;
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+  z-index: 2;
+}
+.frame-div,
+.line-group {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.line-group {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.frame-div {
+  width: 411px;
+  padding: 0 var(--padding-7xl);
+  box-sizing: border-box;
+}
+.frame-div,
+.iphone-14-15-pro-max-12-inner,
+.line-parent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.line-parent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 6px;
+}
+.iphone-14-15-pro-max-12-inner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 18px;
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.iconhome1,
+.images-5-icon {
+  width: 57px;
+  height: 81px;
+  position: relative;
+  object-fit: cover;
+}
+.iconhome1 {
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconhome-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs);
+}
+.home1 {
+  position: relative;
+  letter-spacing: -0.24px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 28px;
+}
+.tab-bar-item1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-5xl) var(--padding-11xs);
+  gap: var(--gap-9xs);
+  cursor: pointer;
+}
+.iconsearch1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconsearch-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs) 0 var(--padding-8xs);
+}
+.browse1 {
+  position: relative;
+  letter-spacing: -0.24px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 35px;
+}
+.tab-bar-item2,
+.tabs1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tab-bar-item2 {
+  flex-direction: column;
+  padding: var(--padding-6xs) var(--padding-xl) var(--padding-11xs)
+    var(--padding-2xl);
+  gap: var(--gap-9xs);
+  opacity: 0.5;
+}
+.tabs1 {
+  position: absolute;
+  top: 57px;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-rosybrown-200);
+  width: 375px;
+  overflow: hidden;
+  flex-direction: row;
+  padding: 0 var(--padding-6xs);
+  box-sizing: border-box;
+  gap: var(--gap-47xl);
+  text-align: center;
+  font-size: var(--font-size-3xs);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.noun-help-3565552-2-icon,
+.to-bookmark-iconsvgco2 {
+  position: absolute;
+  top: 0;
+  left: 60px;
+  width: 41px;
+  height: 57px;
+  overflow: hidden;
+  z-index: 1;
+}
+.to-bookmark-iconsvgco2 {
+  top: 42px;
+  left: 0;
+  width: 84px;
+  height: 83px;
+  z-index: 2;
+}
+.noun-help-3565552-2-parent {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 300px;
+  width: 101px;
+}
+.tabs-parent {
+  height: 125px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.frame-wrapper1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.images-5-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+  max-width: 100%;
+}
+.iphone-14-15-pro-max-12-child {
+  width: 407px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.iphone-14-15-pro-max-12 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 var(--padding-8xs);
+  box-sizing: border-box;
+  gap: 53px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
