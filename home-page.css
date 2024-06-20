@@ -1,4 +1,4 @@
-.frame-child1 {
+.frame-child2 {
   height: 147px;
   width: 1282px;
   position: relative;
@@ -19,7 +19,7 @@
   justify-content: flex-end;
   padding: 0 0 39.3px;
 }
-.search-icon3 {
+.search-icon4 {
   height: 40px;
   width: 40px;
   position: relative;
@@ -42,14 +42,14 @@
 }
 .search-input-child,
 .search-input-wrapper,
-.search-input1 {
+.search-input2 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   box-sizing: border-box;
   max-width: 100%;
 }
-.search-input1 {
+.search-input2 {
   align-self: stretch;
   border-radius: var(--br-5xs);
   background-color: var(--color-white);
@@ -125,7 +125,7 @@
   justify-content: flex-start;
   padding: 0 0 32.6px;
 }
-.wagz5 {
+.wagz6 {
   margin: 0;
   align-self: stretch;
   position: relative;
@@ -142,7 +142,7 @@
   padding: var(--padding-lg) 0 0;
   box-sizing: border-box;
 }
-.following2 {
+.following3 {
   align-self: stretch;
   height: 48px;
   position: relative;
@@ -158,7 +158,7 @@
   padding: var(--padding-lgi) 0 0;
   box-sizing: border-box;
 }
-.settings {
+.settings2 {
   align-self: stretch;
   position: relative;
 }
@@ -194,14 +194,14 @@
   padding: 0 0 var(--padding-xs-6);
   box-sizing: border-box;
 }
-.home4 {
+.home6 {
   align-self: stretch;
   height: 49px;
   position: relative;
   display: inline-block;
   flex-shrink: 0;
 }
-.home-divider {
+.home-divider1 {
   width: 108px;
   height: 5px;
   position: relative;
@@ -219,7 +219,7 @@
   justify-content: flex-start;
   gap: var(--gap-11xs);
 }
-.about {
+.about2 {
   flex: 1;
   position: relative;
 }
@@ -231,7 +231,7 @@
   justify-content: flex-start;
   padding: 0 0 0 var(--padding-3xs);
 }
-.about-divider-icon {
+.about-divider-icon1 {
   width: 121px;
   height: 1px;
   position: relative;
@@ -248,7 +248,7 @@
   justify-content: flex-start;
   gap: var(--gap-sm);
 }
-.blogs {
+.blogs2 {
   flex: 1;
   position: relative;
   line-height: 35px;
@@ -261,7 +261,7 @@
   justify-content: flex-start;
   padding: 0 0 0 var(--padding-mid);
 }
-.blogs-divider-icon {
+.blogs-divider-icon1 {
   width: 128px;
   height: 1px;
   position: relative;
@@ -278,7 +278,7 @@
   justify-content: flex-start;
   gap: var(--gap-sm);
 }
-.write-icon {
+.write-icon1 {
   height: 39.1px;
   width: 40.1px;
   position: relative;
@@ -302,7 +302,7 @@
   left: 13.2px;
   z-index: 1;
 }
-.write3 {
+.write5 {
   position: relative;
   line-height: 34.3px;
   display: inline-block;
@@ -755,11 +755,11 @@
   justify-content: flex-start;
   padding: 0 var(--padding-lgi);
 }
-.content2,
+.content3,
 .icon {
   position: relative;
 }
-.content2 {
+.content3 {
   align-self: stretch;
   height: 9.3px;
   display: inline-block;
@@ -984,7 +984,7 @@
   justify-content: flex-start;
   padding: 0 var(--padding-2xs) 0 var(--padding-3xs);
 }
-.content3 {
+.content4 {
   align-self: stretch;
   height: 9.3px;
   position: relative;
@@ -993,12 +993,12 @@
   flex-shrink: 0;
 }
 .user-details,
-.user-name4 {
+.user-name5 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
-.user-name4 {
+.user-name5 {
   align-self: stretch;
   justify-content: flex-start;
   gap: var(--gap-xl);
@@ -1223,7 +1223,7 @@
   justify-content: flex-start;
   padding: 0 0 0 var(--padding-5xs);
 }
-.content4 {
+.content5 {
   width: 143.1px;
   height: 9.3px;
   position: relative;
@@ -1245,7 +1245,7 @@
   justify-content: flex-end;
   padding: 0 var(--padding-6xs);
 }
-.user-name5 {
+.user-name6 {
   align-self: stretch;
   flex-direction: column;
   gap: 2.5px;
@@ -1253,7 +1253,7 @@
 .user-details1,
 .user-item1,
 .user-items,
-.user-name5 {
+.user-name6 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -1328,7 +1328,7 @@
   top: 9.9px;
   left: 16px;
 }
-.images-5-icon1 {
+.images-5-icon2 {
   height: 94.8px;
   flex: 1;
   position: relative;
@@ -1433,22 +1433,22 @@
   }
 }
 @media screen and (max-width: 1050px) {
-  .wagz5 {
+  .wagz6 {
     font-size: var(--font-size-19xl);
   }
-  .about,
-  .blogs,
-  .following2,
-  .home4,
-  .settings,
-  .write3 {
+  .about2,
+  .blogs2,
+  .following3,
+  .home6,
+  .settings2,
+  .write5 {
     font-size: var(--font-size-7xl);
   }
-  .blogs,
-  .write3 {
+  .blogs2,
+  .write5 {
     line-height: 28px;
   }
-  .write3 {
+  .write5 {
     line-height: 27px;
   }
   .frame-parent7 {
@@ -1485,19 +1485,19 @@
   .frame-parent5 {
     gap: var(--gap-9xl);
   }
-  .wagz5 {
+  .wagz6 {
     font-size: var(--font-size-10xl);
   }
-  .about,
-  .blogs,
-  .following2,
-  .home4,
-  .settings,
-  .write3 {
+  .about2,
+  .blogs2,
+  .following3,
+  .home6,
+  .settings2,
+  .write5 {
     font-size: var(--font-size-lgi);
   }
-  .blogs,
-  .write3 {
+  .blogs2,
+  .write5 {
     line-height: 21px;
   }
   .home-option {
@@ -1507,7 +1507,7 @@
   .anna2,
   .art,
   .caleb2,
-  .content2,
+  .content3,
   .food,
   .louise2,
   .second-user-action,
@@ -1519,8 +1519,8 @@
     gap: var(--gap-2xl);
   }
   .books,
-  .content3,
   .content4,
+  .content5,
   .culture,
   .jane,
   .music,
