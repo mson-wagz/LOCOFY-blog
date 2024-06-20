@@ -1,4 +1,4 @@
-.frame-child2 {
+.frame-child3 {
   position: absolute;
   top: 0;
   left: 0;
@@ -39,23 +39,23 @@
   justify-content: flex-start;
   padding: 0 var(--padding-2xs) 0 var(--padding-3xs);
 }
-.created-by-athok,
-.from-the-noun {
+.created-by-athok1,
+.from-the-noun1 {
   position: relative;
   display: inline-block;
   white-space: nowrap;
 }
-.created-by-athok {
+.created-by-athok1 {
   width: 91.9px;
 }
-.from-the-noun {
+.from-the-noun1 {
   align-self: stretch;
   height: 12.4px;
   flex-shrink: 0;
 }
 .created-by-athok-parent,
-.noun-back-4724860-4,
-.noun-back-4724860-4-wrapper {
+.noun-back-4724860-4-wrapper,
+.noun-back-4724860-41 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -67,11 +67,11 @@
   flex-shrink: 0;
   debug_commit: 448091;
 }
-.noun-back-4724860-4,
-.noun-back-4724860-4-wrapper {
+.noun-back-4724860-4-wrapper,
+.noun-back-4724860-41 {
   box-sizing: border-box;
 }
-.noun-back-4724860-4 {
+.noun-back-4724860-41 {
   align-self: stretch;
   height: 82.9px;
   overflow: hidden;
@@ -85,7 +85,7 @@
   width: 68.4px;
   padding: var(--padding-7xs-4) 0 0;
 }
-.search-icon4 {
+.search-icon5 {
   height: 40px;
   width: 40px;
   position: relative;
@@ -94,7 +94,7 @@
 }
 .frame-parent14,
 .search-input-item,
-.search-input2 {
+.search-input3 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -116,10 +116,10 @@
   min-width: 250px;
 }
 .frame-parent14,
-.search-input2 {
+.search-input3 {
   flex-direction: row;
 }
-.search-input2 {
+.search-input3 {
   flex: 1;
   border-radius: var(--br-5xs);
   background-color: var(--color-white);
@@ -174,7 +174,7 @@
   color: var(--color-black);
   font-family: var(--small-text);
 }
-.wagz6 {
+.wagz7 {
   margin: 0;
   align-self: stretch;
   position: relative;
@@ -191,14 +191,14 @@
   padding: var(--padding-6xl) 0 0;
   box-sizing: border-box;
 }
-.following3 {
+.following4 {
   align-self: stretch;
   height: 48px;
   position: relative;
   display: inline-block;
   flex-shrink: 0;
 }
-.navigation {
+.navigation1 {
   width: 168px;
   display: flex;
   flex-direction: column;
@@ -207,7 +207,7 @@
   padding: var(--padding-7xl) 0 0;
   box-sizing: border-box;
 }
-.settings1 {
+.settings3 {
   align-self: stretch;
   position: relative;
 }
@@ -218,7 +218,7 @@
   border-top: 5px solid var(--color-black);
   box-sizing: border-box;
 }
-.settings-divider {
+.settings-divider1 {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -226,7 +226,7 @@
   justify-content: flex-start;
   padding: 0 var(--padding-5xs) 0 var(--padding-8xs);
 }
-.settings-item,
+.settings-item1,
 .settings-label {
   display: flex;
   flex-direction: column;
@@ -237,13 +237,13 @@
   justify-content: flex-start;
   gap: var(--gap-7xs);
 }
-.settings-item {
+.settings-item1 {
   width: 143px;
   justify-content: flex-end;
   padding: 0 0 var(--padding-xs-6);
   box-sizing: border-box;
 }
-.home5 {
+.home7 {
   align-self: stretch;
   height: 49px;
   position: relative;
@@ -268,7 +268,7 @@
   justify-content: flex-start;
   gap: var(--gap-11xs);
 }
-.about1 {
+.about3 {
   flex: 1;
   position: relative;
 }
@@ -286,7 +286,7 @@
   position: relative;
   object-fit: contain;
 }
-.about-item {
+.about-item1 {
   position: absolute;
   top: 19px;
   left: 143px;
@@ -297,7 +297,7 @@
   justify-content: flex-start;
   gap: var(--gap-sm);
 }
-.blogs1 {
+.blogs3 {
   flex: 1;
   position: relative;
   line-height: 35px;
@@ -317,7 +317,7 @@
   position: relative;
   object-fit: contain;
 }
-.blogs-item {
+.blogs-item1 {
   position: absolute;
   top: 17px;
   left: 304px;
@@ -328,7 +328,7 @@
   justify-content: flex-start;
   gap: var(--gap-sm);
 }
-.write-icon1 {
+.write-icon2 {
   height: 37.7px;
   width: 40.1px;
   position: relative;
@@ -350,7 +350,7 @@
   left: 13.2px;
   z-index: 1;
 }
-.write4 {
+.write6 {
   position: relative;
   line-height: 34.3px;
   display: inline-block;
@@ -358,7 +358,7 @@
   z-index: 2;
 }
 .write-item,
-.write-label {
+.write-label1 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -373,7 +373,7 @@
   flex-direction: column;
   gap: var(--gap-smi-6);
 }
-.home-item {
+.home-item1 {
   height: 84.6px;
   flex: 1;
   position: relative;
@@ -433,7 +433,7 @@
   justify-content: flex-start;
   gap: var(--gap-9xs);
 }
-.label1 {
+.label2 {
   width: 100%;
   border: 0;
   outline: 0;
@@ -513,13 +513,13 @@
   line-height: 150%;
   color: var(--color-gray-100);
 }
-.content5,
+.content6,
 .main-content {
   display: flex;
   justify-content: flex-start;
   max-width: 100%;
 }
-.content5 {
+.content6 {
   width: 739px;
   flex-direction: column;
   align-items: center;
@@ -532,7 +532,7 @@
   flex-direction: row;
   align-items: flex-start;
 }
-.images-5-icon2 {
+.images-5-icon3 {
   width: 131px;
   height: 184px;
   position: relative;
@@ -583,29 +583,29 @@
   }
 }
 @media screen and (max-width: 1050px) {
-  .from-the-noun {
+  .from-the-noun1 {
     display: none;
   }
   .created-by-athok-parent {
     display: none;
     width: 0;
   }
-  .wagz6 {
+  .wagz7 {
     font-size: var(--font-size-19xl);
   }
-  .about1,
-  .blogs1,
-  .following3,
-  .home5,
-  .settings1,
-  .write4 {
+  .about3,
+  .blogs3,
+  .following4,
+  .home7,
+  .settings3,
+  .write6 {
     font-size: var(--font-size-7xl);
   }
-  .blogs1,
-  .write4 {
+  .blogs3,
+  .write6 {
     line-height: 28px;
   }
-  .write4 {
+  .write6 {
     line-height: 27px;
   }
   .header-right {
@@ -627,7 +627,7 @@
   .header-right {
     gap: var(--gap-6xl);
   }
-  .content5 {
+  .content6 {
     padding-bottom: 293px;
     box-sizing: border-box;
   }
@@ -645,29 +645,29 @@
   .frame-parent14 {
     gap: var(--gap-19xl);
   }
-  .wagz6 {
+  .wagz7 {
     font-size: var(--font-size-10xl);
   }
-  .about1,
-  .blogs1,
-  .following3,
-  .home5,
-  .settings1,
-  .write4 {
+  .about3,
+  .blogs3,
+  .following4,
+  .home7,
+  .settings3,
+  .write6 {
     font-size: var(--font-size-lgi);
   }
-  .blogs1,
-  .write4 {
+  .blogs3,
+  .write6 {
     line-height: 21px;
   }
-  .home-item {
+  .home-item1 {
     min-width: 100%;
   }
   .create-an-account1 {
     font-size: var(--font-size-lgi);
     line-height: 29px;
   }
-  .label1 {
+  .label2 {
     font-size: var(--small-text-size);
     line-height: 24px;
   }
